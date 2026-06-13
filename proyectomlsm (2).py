@@ -17,7 +17,7 @@ Original file is located at
 # from datetime import datetime
 # @st.cache_resource
 # def init_connection():
-#     return MongoClient("mongodb+srv://bernal2301ignacio:mark_2amkriu@clouster0.j9bpglx.mongodb.net/?appName=clouster0")
+#    return MongoClient(st.secrets["MONGO_URI"])
 # try:
 #     client = init_connection()
 #     db = client["mercadolibre"]
